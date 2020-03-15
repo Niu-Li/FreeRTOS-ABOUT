@@ -1,6 +1,17 @@
+# 根目录下忽略项
+*.bat
+
+# MDK-ARM文件夹下忽略项
 MDK-ARM/DebugConfig/
 MDK-ARM/F746-FreeRTOS/
 MDK-ARM/RTE/
 MDK-ARM/*.lst
-MDK-ARM/*.uvguix*
-*.bat
+MDK-ARM/*.uvguix.*
+
+# Drivers文件夹下忽略项
+Drivers/CMSIS/Core/
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/RTOS2/
