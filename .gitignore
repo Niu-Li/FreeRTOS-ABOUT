@@ -1,0 +1,5 @@
+MDK-ARM/DebugConfig
+MDK-ARM/F746-FreeRTOS
+MDK-ARM/RTE
+MDK-ARM/*.lst
+MDK-ARM/*.uvguix*
